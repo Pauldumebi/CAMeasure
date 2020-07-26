@@ -9,15 +9,29 @@
 }
 body {
    background: #F0F5FC !important;
-   /* height: 100vh; */
+}
+.fa-moon-o {
+   font-size: 40px;
+   position: absolute;
+   right: 0;
+   color: white;
 }
 .dark-mode {
-   background: #001232;
+   background-color: #001232 !important;
    color: white;
 }
 .logo img {
-   width: 12.5rem;
+   width: 5rem;
    margin-top: 3rem;
+   float: left;
+}
+.logo p {
+   color: #212529;
+   font-size: 2rem;
+   margin-top: 4rem;
+}
+.logo a:hover {
+   text-decoration: none;
 }
 .header {
    margin-top: 5rem; 
@@ -132,6 +146,9 @@ h4 {
    letter-spacing: 0.1em;
    padding-top: 10rem;
 }
+.at-a-glance {
+   padding-top: 3rem;
+}
 .paragraph {
    text-align: center;
    padding: 2rem 18rem;
@@ -144,18 +161,17 @@ h4 {
    height: 300px;
    border-radius: 50px;
    margin-top: 2rem;
+   background: rgba(63, 81, 181, 0.2);
 }
 .card img {
    width: 80px;
    height: 120px;
    padding-top: 3rem;
    padding-left: 1rem;
-   background: white;
-}
+} 
 .card p {
    padding-left: 1rem;
    padding-top: 1rem;
-   background: white;
    border-radius: 50px;
 }
 
@@ -241,14 +257,35 @@ h5 {
  .fa-social:hover {
    opacity: 0.7;
 }
+@media screen and (max-width: 1024px) {
+   your font  style goes here
+   
+}
+   
+@media screen and (max-width: 950px) {
+   your font  style goes here
+   
+}
+   
 
- @media (max-width: 576px) { 
+@media screen and (max-width: 650px) {
+   your font  style goes here
+
+
+}
+
+@media screen and (max-width: 480px) {
+
    .header h1 {
       font-size: 32px !important;
    }      
+   .fa-moon-o {
+      color: #3F51B5;
+   }
    .header-text {
-      width: 340px;
-      font-size: 14px;
+      width: 20rem;
+      height: auto;
+      font-size: 5vw;
    }
    .input-field {
       width: 65%;
