@@ -270,7 +270,72 @@ h5 {
    
 
 @media screen and (max-width: 650px) {
-   your font  style goes here
+   .header h1 {
+      font-size: 32px !important;
+   }      
+   .fa-moon-o {
+      color: #3F51B5;
+   }
+   .header-text {
+      width: unset;
+      font-size: 4vw;
+   }
+   .input-field {
+      width: 65%;
+   }
+   .background-img, 
+   .blue-ball img, 
+   .white-ball img, 
+   .white-ball-2 img, 
+   .pink-ball img, 
+   .pink-ball-2 img,
+   .deep-blue img {
+      display: none;
+   }
+   .paragraph {
+      padding: 1rem;
+   }
+   h4 {
+      padding-top: 5rem;
+      font-size: 18px !important;
+   }
+   .card-deck .card {
+      width: 260px;
+      height: 300px;
+      margin: 3rem auto;
+   }
+   .prototype img {
+      width: 100%;
+      height: auto;
+   }
+   .icons p {
+      width: unset;
+   }
+   .splash img {
+     width: 100%;
+     height: auto;
+     text-align: center;
+     margin: 0 0 4rem 1.8rem;
+   }
+   .icons img {
+      margin-right: 2rem;
+   }
+   .app-paragraph-2 img {
+      margin-right: none;
+   }
+   .app-paragraph-2 {
+      grid-template-columns: 60% 40%; 
+   }
+   #third-col-header {
+      width: 10rem;
+   }
+   .App-at-a-glance img {
+     width: 100%;
+     height: auto;
+   }
+   .footer {
+      overflow-x: hidden;
+   }
 
 
 }
