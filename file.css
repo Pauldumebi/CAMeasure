@@ -23,12 +23,13 @@ body {
 .logo img {
    width: 5rem;
    margin-top: 3rem;
-   float: left;
 }
-.logo p {
-   color: #212529;
+
+.logo-name {
    font-size: 2rem;
    margin-top: 4rem;
+   position: absolute;
+   margin: -4rem 0 0 5.5rem;
 }
 .logo a:hover {
    text-decoration: none;
@@ -186,7 +187,7 @@ h4 {
 }
 .splash img {
    width: 400px;
-   height: 500px;
+   height: auto;
    padding-right: 4rem !important;
 }
 h5 {
